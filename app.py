@@ -81,7 +81,7 @@ st.markdown("""
 # LOAD MODEL
 # ============================================================
 
-MODEL_PATH = "laptop_price_model.pkl"
+MODEL_PATH = "pipe.pkl"
 
 if not os.path.exists(MODEL_PATH):
     st.error(
